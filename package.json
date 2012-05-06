@@ -1,0 +1,17 @@
+{
+    "name": "Fi",
+    "description": "An HTML5 file uploader with progress bar using node.js for the file system.",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "node": "v0.6.15"
+    },
+    "authors": ["Chris Abrams <mail@chrisabrams.com>"],
+    "dependencies": {
+        "connect": "2.0.3",
+        "express": "2.5.4",
+        "jade": "0.25.0"
+    }
+}

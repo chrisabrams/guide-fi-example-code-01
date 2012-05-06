@@ -1,0 +1,1 @@
+This repo is a part of a guide published in X magazine.

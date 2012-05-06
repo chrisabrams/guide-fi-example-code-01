@@ -1,0 +1,38 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+info using npm@1.1.12
+info using node@v0.6.15
+verbose config file /Users/chris/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /Volumes/WD750/Server/fi/package.json
+verbose loadDefaults node-express-socketio@0.0.1
+verbose run-script [ 'prestart', 'start', 'poststart' ]
+info prestart node-express-socketio@0.0.1
+info start node-express-socketio@0.0.1
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "node server.js"
+silly spawning [ 'sh', [ '-c', 'node server.js' ], '/Volumes/WD750/Server/fi' ]
+info node-express-socketio@0.0.1 Failed to exec start script
+ERR! node-express-socketio@0.0.1 start: `node server.js`
+ERR! `sh "-c" "node server.js"` failed with 1
+ERR! 
+ERR! Failed at the node-express-socketio@0.0.1 start script.
+ERR! This is most likely a problem with the node-express-socketio package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node server.js
+ERR! You can get their info via:
+ERR!     npm owner ls node-express-socketio
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Darwin 11.3.0
+ERR! command "node" "/usr/local/bin/npm" "start"
+ERR! cwd /Volumes/WD750/Server/fi
+ERR! node -v v0.6.15
+ERR! npm -v 1.1.12
+ERR! code ELIFECYCLE
+ERR! message node-express-socketio@0.0.1 start: `node server.js`
+ERR! message `sh "-c" "node server.js"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
